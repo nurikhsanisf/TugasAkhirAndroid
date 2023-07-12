@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"
+        />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="179dp"
+        android:layout_height="173dp"
+        android:layout_below="@+id/img_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-4dp"
+        android:src="@drawable/gambar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:text="Aplikasi GoRekLop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:text="Aplikasi GoRek adalah suatu aplikasi yang dibuat untuk merekomendasikan laptop berdasarkan spesifikasi dengan emnggunakan metode Content based Filtering dan melakukan pengclusteran terhadap harga laptop dengan menggunakan metode K-Means  "
+        android:padding="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:id="@+id/txt_2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_2"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:rotationX="2"
+        android:text="Rekomendasi Laptop"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/btn_1"
+        />
+    <!--    <Button-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/btn_1"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:width="300dp"-->
+    <!--        android:background="@drawable/button_save"-->
+    <!--        android:rotationX="2"-->
+    <!--        android:text="Rekomendasi Harga"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="14dp"-->
+    <!--        android:fontFamily="@font/poppinsbold"-->
+    <!--        android:id="@+id/btn_2"-->
+    <!--        />-->
+
+</RelativeLayout>

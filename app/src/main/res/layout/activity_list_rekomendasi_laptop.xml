@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListRekomendasiLaptopActivity"
+    android:backgroundTint="@color/baground">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/R_img_1"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:text="Berikut Hasil Rekomendasi "
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
+        android:id="@+id/LRL_txt_1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/LRL_txt_1"
+        android:padding="15dp"
+        android:id="@+id/ly_LRL">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_1">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_2"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TypeName : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_3"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScreenSize : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_4"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScreenResolution : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_5"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CPU : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_6"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAM : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_7"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memory : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_8"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPU : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_9"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operasi Sistem : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_10"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berat : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:id="@+id/T_LRL_11"
+            android:layout_marginTop="8dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

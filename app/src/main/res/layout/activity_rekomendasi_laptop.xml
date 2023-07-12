@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RekomendasiLaptopActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang all "
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
+        android:id="@+id/RL_txt_1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RL_txt_1"
+        android:text="Silahkan isi dengan spesifikasi yang diinginkan"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/RL_txt_2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/RL_txt_2"
+        android:padding="30dp"
+        android:id="@+id/ly_RL">
+
+
+        <Spinner
+            android:id="@+id/RL_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Company"
+            android:spinnerMode="dropdown" />
+        <Spinner
+            android:id="@+id/RL_produk"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Product"
+            android:spinnerMode="dropdown"/>
+
+        <!--        android:background="@android:drawable/btn_dropdown"-->
+
+        <Spinner
+            android:id="@+id/RL_typename"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Typename"
+            android:spinnerMode="dropdown"/>
+        <Spinner
+            android:id="@+id/RL_inches"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Inches"
+            android:spinnerMode="dropdown"/>
+        <Spinner
+            android:id="@+id/RL_screenR"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/screenresolution"
+            android:spinnerMode="dropdown"/>
+        <Spinner
+            android:id="@+id/R_cpu"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/CPU"
+            android:spinnerMode="dropdown"/>
+        <Spinner
+            android:id="@+id/RL_ram"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Ram"
+            android:spinnerMode="dropdown"/>
+        <Spinner
+            android:id="@+id/RL_memory"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/memory"
+            android:spinnerMode="dropdown"/>
+        <Spinner
+            android:id="@+id/RL_gpu"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/GPU"
+            android:spinnerMode="dropdown"/>
+        <Spinner
+            android:id="@+id/RL_opsis"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/opsis"
+            android:spinnerMode="dropdown"/>
+        <Spinner
+            android:id="@+id/RL_weight"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/weight"
+            android:spinnerMode="dropdown"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomndasi Spesifikasi"
+        android:layout_below="@id/ly_RL"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:id="@+id/R_btn_1"
+        android:fontFamily="@font/poppinsbold"
+        android:width="300dp"/>
+
+</RelativeLayout>
